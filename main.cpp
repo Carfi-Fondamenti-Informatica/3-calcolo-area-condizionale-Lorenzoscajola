@@ -11,7 +11,7 @@ int main () {
 	cin>> c;
 	
 	if (c!=0 or c!=1 or c!=2) {
-	cout<<"opzione non valida"<<endl;
+	cout<< "opzione non valida" <<endl;
 }
     else{
 	
