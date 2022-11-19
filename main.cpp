@@ -10,10 +10,6 @@ int main () {
 	cin>> b; 
 	cin>> c;
 	
-	if (c!=0 or c!=1 or c!=2) {
-	cout<< "opzione non valida" <<endl;
-}
-    else{
 	
 	
 	switch(c) {
@@ -26,8 +22,10 @@ int main () {
 	    case 2:
 	    	cout<<(a*b)<<endl;
 	    	break;
+		default:
+           cout << "opzione non valida" << endl;
+   }
 	    	
 	}
-}
 	return 0;
 }
